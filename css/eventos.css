@@ -23,6 +23,7 @@ main {
     flex-direction: column;
     gap: 10px;
     max-width: 800px;
+    margin-bottom: 20px;
     .eventos__item {
       width: 100%;
       max-width: 800px;
@@ -32,13 +33,13 @@ main {
       border-radius: 10px;
       img {
         width: 40%;
-        max-width: 320px;
         aspect-ratio: 16/9;
         object-fit: cover;
         border-radius: 10px 0 0 10px;
         flex-shrink: 0;
       }
       .eventos__info {
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: 10px;
