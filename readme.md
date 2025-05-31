@@ -48,3 +48,11 @@ Desarrollar un sitio web estático funcional y bien documentado para la agencia 
 3. **Visualizar el sitio**
 
 - Abre el archivo index.html en tu navegador web.
+
+## 🛠️ Tecnologías Utilizadas
+
+- HTML5
+- CSS3
+- JS
+- Git & GitHub
+- Visual Studio Code (recomendado)
