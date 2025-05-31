@@ -32,10 +32,19 @@ Desarrollar un sitio web estático funcional y bien documentado para la agencia 
 - Utilizar GitHub para gestionar el repositorio y registrar los avances del proyecto.
 - Asegurar la compatibilidad del sitio en distintos navegadores y dispositivos.
 
-## 🛠️ Tecnologías Utilizadas
+## ▶️ Instrucciones de Uso
 
-- HTML5
-- CSS3
-- Git & GitHub
+1. **Clonar el repositorio:**
 
----
+   ```bash
+   git clone https://github.com/Fredev01/prac_eventos_chiap.git
+   cd prac_eventos_chiap
+   ```
+
+2. **Abrir el proyecto:**
+
+- Puedes abrir el proyecto con cualquier editor de código, como Visual Studio Code.
+
+3. **Visualizar el sitio**
+
+- Abre el archivo index.html en tu navegador web.
