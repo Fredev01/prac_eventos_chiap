@@ -2,37 +2,44 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Contacto</title>
+  <title>Formulario de Contacto</title>
+
 </head>
 <body>
 
-  <h1>Formulario de Contacto</h1>
+  <div class="container">
+    <h1>Formulario de Contacto</h1>
 
-  <form id="form-contacto">
-    <div>
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
-    </div>
+    <form id="form-contacto">
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
 
-    <div>
-      <label for="email">Correo electrónico:</label>
-      <input type="email" id="email" name="email" required>
-    </div>
+      <div>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
 
-    <div>
-      <label for="asunto">Asunto:</label>
-      <input type="text" id="asunto" name="asunto" required>
-    </div>
+      <div>
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
+      </div>
 
-    <div>
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-    </div>
+      <div>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+      </div>
 
-    <div>
-      <button type="submit">Enviar</button>
-    </div>
-  </form>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
 
+    <h2>Contactos ingresados</h2>
+    <div id="contactos-container"></div>
+  </div>
+
+  <script src="js/contactos.js"></script>
 </body>
 </html>
