@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+main {
+  h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .eventos {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 800px;
+    margin-bottom: 20px;
+    .eventos__item {
+      width: 100%;
+      max-width: 800px;
+      display: flex;
+      gap: 10px;
+      background-color: #ececec;
+      border-radius: 10px;
+      img {
+        width: 40%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        border-radius: 10px 0 0 10px;
+        flex-shrink: 0;
+      }
+      .eventos__info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        h3 {
+          margin-bottom: 5px;
+          font-size: 1.5em;
+        }
+        p {
+          margin-bottom: 10px;
+          flex-grow: 1;
+        }
+        .eventos__fecha {
+          width: 100%;
+          padding: 10px;
+          display: flex;
+          justify-content: flex-end;
+        }
+      }
+    }
+  }
+}
