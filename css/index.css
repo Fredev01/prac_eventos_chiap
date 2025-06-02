@@ -31,7 +31,7 @@ nav a:hover {
 
 main {
     padding: 2rem;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -51,4 +51,26 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Secciones con imágenes reales */
+.con-imagen {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.con-imagen .texto {
+    flex: 2;
+    min-width: 250px;
+}
+
+.con-imagen .imagen {
+    flex: 1;
+    min-width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
 }
